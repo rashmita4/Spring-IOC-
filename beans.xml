@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+           http://www.springframework.org/schema/beans/spring-beans-2.5.xsd">
+
+<!-- 
+<bean 
+id="student"
+class="com.example.springapplr.Student"
+
+>
+<property name="studentName" value="Rashmita"/>
+
+<property name="id" value="3"/>
+</bean>
+
+<bean id="student1"
+class="com.example.springapplr.Student">
+<property name="studentName" value="ray"/>
+<property name="id" value="4"/>
+
+<bean id="mc1" class="com.example.demo2.MathCheat"></bean>
+<bean id="stu"
+class="com.example.demo2.Student">
+	<property name="id" value="10002"/>
+	<property name="mc"  ref="mc1">
+	
+	</property>
+</bean>
+
+<bean id="astu" class="com.example.demo2.AnotherStu">
+	<property name="mc" ref="mc1"/>
+</bean>
+
+
+<bean id="sc" class="com.example.demo2.ScienceCheat"/>
+<bean id="mc" class="com.example.demo2.MathCheat"/>
+<bean id="stu" class="com.example.demo2.Student">
+<property name="ch" ref="mc">
+
+</property>
+</bean>
+-->
+<!--  
+<bean id="sc" class="com.example.demo2.ScienceCheat"/>
+<bean id="mc" class="com.example.demo2.MathCheat"/>
+
+<bean id="stu" class="com.example.demo2.Student">
+
+<property name="ch" ref="sc" />
+	
+
+
+
+</bean>
+
+
+
+
+
+
+
+
+
+-->
+<bean id="data" class="com.example.practice1.Data"/>
+<bean id="mc" class="com.example.practice1.MissedCall"/>
+<bean id="ht" class="com.example.practice1.HelloTune"/>
+
+<bean id="air" class="com.example.practice1.Airtel">
+<property name="service" ref="ht">
+
+</property>
+</bean>
+
+
+
+
+
+
+</beans>
